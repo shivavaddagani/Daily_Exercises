@@ -19,5 +19,23 @@ print(pig_latin_list)
 print(new_sentence)
 
 # ======================== Problem 3 ==================
+# 2.4 UBBI DUBBI
+
+word = input("enter a word")
+list_word = list(word)
+print(list_word)
+
+j=0
+ubbi =[]
+for i in list_word:
+    j += 1
+    if i in "aeiou":
+       ubbi.append("ub{}".format(i))
+    else:
+        ubbi.append(i)
+
+ubbi_dubbi = "".join(ubbi)
+print(ubbi_dubbi)
+
 
 
