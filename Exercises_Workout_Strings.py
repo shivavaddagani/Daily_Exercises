@@ -37,5 +37,11 @@ for i in list_word:
 ubbi_dubbi = "".join(ubbi)
 print(ubbi_dubbi)
 
+# ======================== Problem 4 ===================
+# sorting a given string
 
+def strsort(x):
+    y = ''.join(sorted(x))
+    return y
+print(strsort('cba'))
 
