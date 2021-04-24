@@ -1,4 +1,4 @@
-# =================== Problem 1 ======================
+# ======================== Problem 1 ======================
 # first last #
 def firstlast(x):
     y = [x[0], x[-1]]
@@ -12,3 +12,5 @@ def firstlast2(x):
     return y
 print(firstlast2('abc'))
 print(firstlast2([1,2,3,4]))
+
+# ========================= Problem 2 ================================
